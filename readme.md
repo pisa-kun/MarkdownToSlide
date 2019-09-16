@@ -62,7 +62,7 @@ Githubにcommitすることで、スライドとして公開することが可�
 - #### ここ、つまりポイント
 - gh-pagesブランチにマークダウンファイルが公開されると、environmentが表示される
 
-![pic1](C:\Develop\markdown\How_Objectes_Work\img\pic1.png)
+![pic1](https://github.com/pisa-kun/MarkdownToSlide/blob/gh-pages/img/pic1.png)
 
 readme.mdに添付する画像はgitの適当なブランチに画像投げて参照するのがいいみたい。へー。
 
