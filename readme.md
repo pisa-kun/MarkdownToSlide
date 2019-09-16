@@ -60,13 +60,28 @@ Githubにcommitすることで、スライドとして公開することが可�
 3. masterブランチと別個で「gh-pages」ブランチを作成
 
 - #### ここ、つまりポイント
-- gh-pagesブランチにマークダウンファイルが公開されると、environmentが表示される
+- gh-pagesブランチにマークダウンファイルが公開されると、[environment]が表示される
 
 ![pic1](https://github.com/pisa-kun/MarkdownToSlide/blob/gh-pages/img/pic1.png)
 
-readme.mdに添付する画像はgitの適当なブランチに画像投げて参照するのがいいみたい。へー。
+メモ : readme.mdに添付する画像はgitの適当なブランチに画像投げて参照するのがいいみたい。
 
+- [environment] から [view deployment]をクリックでMarkdownのスライドが閲覧できる
+
+![pic2](https://github.com/pisa-kun/MarkdownToSlide/blob/gh-pages/img/pic2.png)
+
+- タイトル
+
+![pic3](https://github.com/pisa-kun/MarkdownToSlide/blob/gh-pages/img/pic3.png)
+
+- 目次
+
+![pic4](https://github.com/pisa-kun/MarkdownToSlide/blob/gh-pages/img/pic4.png)
+
+あとはsample.mdのコードを見ながらスライド作成するだけですね。
 
 ---
 ### 参考
 [@harasouさん](https://qiita.com/harasou/items/1fa3cca6ac1ef175c876)
+
+[readmeにのせる画像](http://cakecatz.hatenadiary.com/entry/2015/02/10/214942)
