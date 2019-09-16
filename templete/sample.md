@@ -2,7 +2,7 @@ name: inverse
 layout: true
 class: center, middle, inverse
 ---
-# タイトル
+# hoge
 １ページ目
 ---
 layout:false
