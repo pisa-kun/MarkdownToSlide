@@ -81,7 +81,63 @@ Githubにcommitすることで、スライドとして公開することが可�
 あとはsample.mdのコードを見ながらスライド作成するだけですね。
 
 ---
+
+### Marp for VS Code
+前述のRemarkはローカルだと上手くスライド表示できなかったので他のものを探していたら
+
+#####Marp for VS Code 
+なるアドオンをみつけてしまった。
+> Markdownで書くことでPowerPointのようなスライド形式に変換し、PDFに保存することができる
+> クロスプラットフォーム対応でWin,Mac,Linuxで利用可能
+
+VSCode 左バ-の[Extensions]からMarp for VS codeを検索し、インストール。
+
+![pic5](https://github.com/pisa-kun/MarkdownToSlide/blob/gh-pages/img/pic5.png)
+
+1. Marpを有効巣にする際は先頭に以下を利用する
+```trxt
+marp:true
+```
+
+2. Page切り替えには.mdで使用する---を利用
+```
+---
+```
+
+3. とりあえずサンプルコード
+```
+---
+marp: true
+---
+<!-- $theme: gaia -->
+<!-- $size: 4:3 -->
+<!-- page_number: true -->
+<!-- paginate: true -->
+# First page
+
+The page number `1` is shown.
+
+---
+<!-- backgroundColor: aqua -->
+# Second page
+
+
+The page number `2` is shown!
+```
+
+対応viewerはないようなので、Mark down Enhancedなどでページ構成をチェックし、
+最終的に[Show Quick pick of Marp Commands]で[Export slide deck]でpdf吐き出し。
+
+
+
+---
 ### 参考
 [@harasouさん](https://qiita.com/harasou/items/1fa3cca6ac1ef175c876)
 
 [readmeにのせる画像](http://cakecatz.hatenadiary.com/entry/2015/02/10/214942)
+
+[github Pagesで反映されないページをすぐに反映させる方法](https://qiita.com/shge/items/ac20f45c9e8e0b4f33cc)
+
+[Automaticallyをチェック](https://ameblo.jp/m-sm-r/entry-11612237585.html)
+
+[Teck Teck Place](https://murabitoleg.com/vscode-marp/)
